@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.net.URL?>
+<GridPane fx:id="grid" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <stylesheets>
+      <URL value="@/sample/style.css" />
+   </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="button" alignment="CENTER" mnemonicParsing="false" onAction="#Promjena" text="Say `Hello World!`" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="labela" alignment="CENTER" text="helloWorld" GridPane.columnIndex="1">
+         <font>
+            <Font name="Arial Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
